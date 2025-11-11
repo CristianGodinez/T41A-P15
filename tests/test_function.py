@@ -39,10 +39,10 @@ def test_descuento():
     try:
         cur = conn.cursor()
         query="SELECT validar_correo(%s)"
-        cur.execute(query,('bryangamez',));
+        cur.execute(query,('cristiangodinez',));
         result=cur.fetchone()[0];
         assert result is False;
-        cur.execute(query,('yareth@gmail.com',));
+        cur.execute(query,('cristianlimones3@gmail.com',));
         result=cur.fetchone()[0];
         assert result is True;
         conn.commit()
