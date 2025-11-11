@@ -8,7 +8,7 @@ INSERT INTO departamento(nombre) values
 ('IT'),('RRHH'),('CONTABILIDAD');
 
 INSERT INTO empleado(nombre,id_dep) values
-('Bryan Gamez',1),
-('Yareth Contreras',2),
-('Coral Dominguez',1),
-('Alex Vazquez',3);
+('Cristian Godinez',1),
+('Juan Marin',2),
+('Edgar Rodriguez',1),
+('Estefano Rodriguez',3);
